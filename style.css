@@ -45,6 +45,15 @@ header{
   justify-content:flex-end;
 }
 
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+ul li:hover{
+  text-decoration: underline;
+}
+
 .container-top{
   background-color: blue;
   width: 100%;
@@ -149,6 +158,13 @@ header{
   width: 70%;
   height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
+
+span{
+  background-color: rgb(240, 128, 128);
+  border: 1px dashed black;
+
+}
+
