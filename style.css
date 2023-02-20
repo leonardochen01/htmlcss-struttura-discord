@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color:rgb(161, 209, 226);
+  width: 100%;
+  min-height: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  background-color: rgb(137, 106, 30);
+  width: 50%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.container-top{
+  background-color: blue;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro{
+  background-color: rgb(209, 116, 209);
+  width: 50%;
+  height: 420px;
+}
