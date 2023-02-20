@@ -31,8 +31,7 @@ header{
   border: 1px dashed black;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 0 300px;
+  justify-content: space-evenly;
 }
 
 .menu-login{
@@ -45,12 +44,17 @@ header{
   justify-content:flex-end;
 }
 
-ul li{
-  list-style: none;
-  display: inline-block;
+.login{
+  background-color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  border-radius: 30px;
 }
 
-ul li:hover{
+a{
+  text-decoration: none;
+}
+
+a:hover{
   text-decoration: underline;
 }
 
