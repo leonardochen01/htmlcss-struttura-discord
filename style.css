@@ -34,6 +34,55 @@ header{
 
 .intro{
   background-color: rgb(209, 116, 209);
-  width: 50%;
+  width: 60%;
   height: 420px;
+}
+
+.container{
+  background-color: darkgrey;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.immagineg{
+  background-color: rgb(30, 144, 255);
+  height: 450px;
+  width: 40%;
+}
+
+.testop{
+  background-color: rgb(255, 192, 203);
+  height: 450px;
+  width: 30%;
+}
+
+.immaginep{
+  background-color: rgb(30, 144, 255);
+  height: 450px;
+  width: 30%;
+}
+
+.testog{
+  background-color: rgb(255, 192, 203);
+  height: 450px;
+  width: 40%;
+}
+
+.container-due{
+  background-color: aqua;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.immagine-bottom{
+  background-color: darkgreen;
+  width: 70%;
+  height: 650px;
 }
