@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -58,6 +59,15 @@ a:hover{
   text-decoration: underline;
 }
 
+.bianco{
+  color: white;
+  font-weight: 600;
+}
+.nero{
+  color: rgb(42, 45, 47);
+  font-weight: 600;
+}
+
 .container-top{
   background-color: blue;
   width: 100%;
@@ -71,6 +81,59 @@ a:hover{
   background-color: rgb(209, 116, 209);
   width: 60%;
   height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  align-self: center;
+  padding-top: 50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+h2{
+  padding: 50px 130px;
+  color: white;
+  line-height: 35px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.azioni{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download{
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freccia{
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+
+.apri{
+  background-color: rgb(35, 39, 42);
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container{
@@ -166,7 +229,7 @@ a:hover{
   justify-content: space-between;
 }
 
-span{
+.registrati{
   background-color: rgb(240, 128, 128);
   border: 1px dashed black;
 
